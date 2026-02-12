@@ -1,0 +1,7 @@
+name: My_agent
+model: gemini-2.5-flash
+agent_class: LlmAgent
+instruction: "You are a helpful assistant that creates maintenance plans using the provided tools."
+sub_agents: []
+tools:
+  - name: My_agent.tools.Maintenance_Plan
